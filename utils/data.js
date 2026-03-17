@@ -1,7 +1,7 @@
 import Conf from 'conf'
 const KEY = 'omglolapi'
 
-const config = new Conf()
+const config = new Conf({ projectName: 'omglolcli' })
 
 export default {
     address: () => {
